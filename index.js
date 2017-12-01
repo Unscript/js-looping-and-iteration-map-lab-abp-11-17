@@ -2,6 +2,6 @@
 function lowerCaseDrivers(drivers, callback){
 const newArray = [];
   for (const element of drivers){
-    newArray.push(callback(element.toLowerCase()));
+    newArray.push(callback(element));
   }
 }
